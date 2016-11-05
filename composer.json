@@ -1,0 +1,23 @@
+{
+    "name": "kmergen/yii2-language-switcher",
+    "description": "A simple and flexible language switcher",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "keywords": ["yii", "yii2", "extension", "language", "language-switcher"],
+    "authors": [
+        {
+            "name": "Klaus Megen",
+            "email": "kmergenweb@gmail.com"
+
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kmergen\\": ""
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "codemix/yii2-localeurls": "*"
+    }
+}
