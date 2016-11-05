@@ -6,7 +6,7 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require "kmergen/yii2-language-switcher: "*"
+composer require "kmergen/yii2-language-switcher": "*"
 ```
 
 or add
