@@ -4,7 +4,7 @@
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace kmergen\LanguageSwitcher;
+namespace kmergen;
 
 use Yii;
 use yii\base\Widget;
@@ -57,6 +57,9 @@ class LanguageSwitcher extends Widget
 
     public function init()
     {
+        parent::init();
+        $this->registerTranslations();
+
         $route = Yii::$app->controller->route;
         $appLanguage = Yii::$app->language;
         $params = $_GET;
@@ -83,8 +86,6 @@ class LanguageSwitcher extends Widget
                 'url' => $params,
             ];
         }
-
-        parent::init();
     }
 
     public function run()
@@ -93,8 +94,18 @@ class LanguageSwitcher extends Widget
         if ($this->_isError) {
             return '';
         } else {
-            return $this->renderTemplate;
+            return $this->renderTemplate();
         }
+    }
+
+    public function registerTranslations()
+    {
+        $i18n = Yii::$app->i18n;
+        $i18n->translations['langswitch'] = [
+            'class' => 'yii\i18n\PhpMessageSource',
+            'basePath' => '@vendor/kmergen/yii2-language-switcher/messages',
+            'sourceLanguage' => 'en',
+        ];
     }
 
     /**
@@ -132,7 +143,7 @@ class LanguageSwitcher extends Widget
     {
         return strtr($template, [
             '{url}' => Url::to($language['url']),
-            '{label}' => $language('label'),
+            '{label}' => $language['label'],
             '{language}' => $language['code'],
         ]);
     }
@@ -141,13 +152,13 @@ class LanguageSwitcher extends Widget
     {
         if (self::$_labels === null) {
             self::$_labels = [
-                'de' => Yii::t($this->messageCategory, 'German'),
-                'en' => Yii::t($this->messageCategory, 'English'),
-                'us' => Yii::t($this->messageCategory, 'English'),
-                'fr' => Yii::t($this->messageCategory, 'French'),
-                'es' => Yii::t($this->messageCategory, 'Spanish'),
-                'ru' => Yii::t($this->messageCategory, 'Russia'),
-                'nl' => Yii::t($this->messageCategory, 'Dutch'),
+                'de' => Yii::t('langswitch', 'German'),
+                'en' => Yii::t('langswitch', 'English'),
+                'us' => Yii::t('langswitch', 'English'),
+                'fr' => Yii::t('langswitch', 'French'),
+                'es' => Yii::t('langswitch', 'Spanish'),
+                'ru' => Yii::t('langswitch', 'Russia'),
+                'nl' => Yii::t('langswitch', 'Dutch'),
             ];
         }
 
