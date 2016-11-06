@@ -47,17 +47,13 @@ class LanguageSwitcher extends Widget
      */
     public $activeItemTemplate = '<li><a href="{url}" title="{label}"><i class="{language}"></i> {label}</a></li>';
 
-    /**
-     * @var string The category for message translation.
-     */
-    public $messageCategory = 'language';
+    
     private static $_labels;
     private $_isError;
     private $_items = [];
 
     public function init()
     {
-        parent::init();
         $this->registerTranslations();
 
         $route = Yii::$app->controller->route;
@@ -157,7 +153,8 @@ class LanguageSwitcher extends Widget
                 'us' => Yii::t('langswitch', 'English'),
                 'fr' => Yii::t('langswitch', 'French'),
                 'es' => Yii::t('langswitch', 'Spanish'),
-                'ru' => Yii::t('langswitch', 'Russia'),
+                'it' => Yii::t('langswitch', 'Italian'),
+                'ru' => Yii::t('langswitch', 'Russian'),
                 'nl' => Yii::t('langswitch', 'Dutch'),
             ];
         }

@@ -8,6 +8,7 @@ return [
         'en',
         'ru',
         'es',
+        'it',
         'fr',
         'us',
         'nl',

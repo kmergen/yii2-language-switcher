@@ -17,10 +17,11 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Dutch' => '',
-    'English' => '',
-    'French' => '',
-    'German' => '',
-    'Russia' => '',
-    'Spanish' => '',
+    'Dutch' => 'Dutch',
+    'English' => 'English',
+    'French' => 'French',
+    'German' => 'German',
+    'Italian' => 'Italian',
+    'Russian' => 'Russian',
+    'Spanish' => 'Spanish',
 ];
