@@ -149,13 +149,19 @@ class LanguageSwitcher extends Widget
         if (self::$_labels === null) {
             self::$_labels = [
                 'de' => Yii::t('langswitch', 'German'),
-                'en' => Yii::t('langswitch', 'English'),
-                'us' => Yii::t('langswitch', 'English'),
-                'fr' => Yii::t('langswitch', 'French'),
-                'es' => Yii::t('langswitch', 'Spanish'),
-                'it' => Yii::t('langswitch', 'Italian'),
-                'ru' => Yii::t('langswitch', 'Russian'),
-                'nl' => Yii::t('langswitch', 'Dutch'),
+            'en' => Yii::t('langswitch', 'English'),
+            'us' => Yii::t('langswitch', 'English'),
+            'fr' => Yii::t('langswitch', 'French'),
+            'es' => Yii::t('langswitch', 'Spanish'),
+            'it' => Yii::t('langswitch', 'Italian'),
+            'ru' => Yii::t('langswitch', 'Russian'),
+            'nl' => Yii::t('langswitch', 'Dutch'),
+            'ja' => Yii::t('langswitch', 'Japanese'),
+            'hi' => Yii::t('langswitch', 'Hindi'),
+            'pt' => Yii::t('langswitch', 'Portuguese'),
+            'ar' => Yii::t('langswitch', 'Arabic'),
+            'ko' => Yii::t('langswitch', 'Korean'),
+            'zh-CN' => Yii::t('langswitch', 'Chinese'), 
             ];
         }
 
