@@ -30,4 +30,6 @@ return [
     'Italian' => 'इतालवी',
     'Russian' => 'रूसी',
     'Spanish' => 'स्पैनिश',
+    'Persian' => 'फ़ारसी',
+    'Polish' => 'पोलिश',
 ];

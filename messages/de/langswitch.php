@@ -20,7 +20,7 @@ return [
     'Arabic' => 'Arabisch',
     'Chinese' => 'Chinesisch',
     'Hindi' => 'Hindi',
-    'Japanese' => 'japanisch',
+    'Japanese' => 'Japanisch',
     'Korean' => 'Koreanisch',
     'Portuguese' => 'Portugiesisch',
     'Dutch' => 'Niederländer',
@@ -30,4 +30,7 @@ return [
     'Italian' => 'Italienisch',
     'Russian' => 'Russisch',
     'Spanish' => 'Spanisch',
+    'Persian' => 'Persisch',
+    'Polish' => 'Polieren',
+
 ];

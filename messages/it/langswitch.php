@@ -16,12 +16,20 @@
  *
  * NOTE: this file must be saved in UTF-8 encoding.
  */
-return [
-    'Dutch' => 'Olandese',
-    'English' => 'Inglese',
-    'French' => 'French',
-    'German' => 'Tedesco',
-    'Italian' => 'Italiana',
-    'Russian' => 'Russo',
-    'Spanish' => 'Spagnolo',
-];
+ return [
+     'Persian' => 'persiano',
+     'Polish' => 'polacco',
+     'Arabic' => 'Arabo',
+     'Chinese' => 'Cinese',
+     'Dutch' => 'olandese',
+     'English' => 'Inglese',
+     'French' => 'francese',
+     'German' => 'Tedesco',
+     'Hindi' => 'hindi',
+     'Italian' => 'italiano',
+     'Japanese' => 'giapponese',
+     'Korean' => 'coreano',
+     'Portuguese' => 'portoghese',
+     'Russian' => 'russo',
+     'Spanish' => 'spagnolo',
+ ];

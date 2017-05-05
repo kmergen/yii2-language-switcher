@@ -15,7 +15,9 @@ return [
         'ja',
         'zh-CN',
         'ko',
-        'hi'
+        'hi',
+        'pl',
+        'fa',
     ],
     'translator' => 'Yii::t',
     'sort' => false,

@@ -30,4 +30,6 @@ return [
     'Italian' => '이탈리아 사람',
     'Russian' => '러시아인',
     'Spanish' => '스페인 사람',
+    'Persian' => '페르시아 인',
+    'Polish' => '광택',
 ];

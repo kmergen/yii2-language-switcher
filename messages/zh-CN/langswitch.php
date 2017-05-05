@@ -30,4 +30,7 @@ return [
     'Italian' => '意大利语',
     'Russian' => '俄语',
     'Spanish' => '西班牙语',
+    'Persian' => '波斯语',
+    'Polish' => '抛光',
+    
 ];
