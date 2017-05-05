@@ -148,7 +148,7 @@ class LanguageSwitcher extends Widget
     {
         if (self::$_labels === null) {
             self::$_labels = [
-                'de' => Yii::t('langswitch', 'German'),
+            'de' => Yii::t('langswitch', 'German'),
             'en' => Yii::t('langswitch', 'English'),
             'us' => Yii::t('langswitch', 'English'),
             'fr' => Yii::t('langswitch', 'French'),
@@ -158,6 +158,8 @@ class LanguageSwitcher extends Widget
             'nl' => Yii::t('langswitch', 'Dutch'),
             'ja' => Yii::t('langswitch', 'Japanese'),
             'hi' => Yii::t('langswitch', 'Hindi'),
+            'fa' => Yii::t('langswitch', 'Persian'),
+            'pl' => Yii::t('langswitch', 'Polish'),
             'pt' => Yii::t('langswitch', 'Portuguese'),
             'ar' => Yii::t('langswitch', 'Arabic'),
             'ko' => Yii::t('langswitch', 'Korean'),
