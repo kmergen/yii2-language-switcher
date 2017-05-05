@@ -47,7 +47,7 @@ class LanguageSwitcher extends Widget
      */
     public $activeItemTemplate = '<li><a href="{url}" title="{label}"><i class="{language}"></i> {label}</a></li>';
 
-    
+
     private static $_labels;
     private $_isError;
     private $_items = [];
@@ -148,8 +148,8 @@ class LanguageSwitcher extends Widget
     {
         if (self::$_labels === null) {
             self::$_labels = [
-            'de' => Yii::t('langswitch', 'German'),
             'en' => Yii::t('langswitch', 'English'),
+            'de' => Yii::t('langswitch', 'German'),            
             'us' => Yii::t('langswitch', 'English'),
             'fr' => Yii::t('langswitch', 'French'),
             'es' => Yii::t('langswitch', 'Spanish'),
@@ -163,7 +163,7 @@ class LanguageSwitcher extends Widget
             'pt' => Yii::t('langswitch', 'Portuguese'),
             'ar' => Yii::t('langswitch', 'Arabic'),
             'ko' => Yii::t('langswitch', 'Korean'),
-            'zh-CN' => Yii::t('langswitch', 'Chinese'), 
+            'zh-CN' => Yii::t('langswitch', 'Chinese'),
             ];
         }
 

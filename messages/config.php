@@ -4,8 +4,8 @@ return [
     'sourcePath' => __DIR__ . '/../',
     'messagePath' => __DIR__,
     'languages' => [
-        'de',
-        'en',
+      'en',
+      'de',
         'ru',
         'es',
         'it',
@@ -16,6 +16,7 @@ return [
         'zh-CN',
         'ko',
         'hi',
+        'ar',
         'pl',
         'fa',
     ],
