@@ -32,6 +32,4 @@ return [
     'Spanish' => 'الأسبانية',
     'Persian' => 'اللغة الفارسية',
     'Polish' => 'البولندي',
-    'Persian' => 'persisch',
-    'Polish' => 'Polieren',
 ];
