@@ -798,7 +798,7 @@
 	background-position: -64px -132px;
 }
 
-.flag.flag-se {
+.flag.flag-se, .flag.flag-sv {
 	background-position: -80px -132px;
 }
 
@@ -850,9 +850,10 @@
 	background-position: -16px -143px;
 }
 
+/* turned it off so swedish definition works
 .flag.flag-sv {
 	background-position: -32px -143px;
-}
+}*/
 
 .flag.flag-sx {
 	background-position: -48px -143px;
