@@ -24,6 +24,7 @@ ln -s ~/sites/mp/common/messages/fa/langswitch.php ~/sites/yii2-language-switche
 ln -s ~/sites/mp/common/messages/sv/langswitch.php ~/sites/yii2-language-switcher/messages/sv/langswitchx.php
 ln -s ~/sites/mp/common/messages/id/langswitch.php ~/sites/yii2-language-switcher/messages/id/langswitchx.php
 ln -s ~/sites/mp/common/messages/th/langswitch.php ~/sites/yii2-language-switcher/messages/th/langswitchx.php
+ln -s ~/sites/mp/common/messages/vi/langswitch.php ~/sites/yii2-language-switcher/messages/vi/langswitchx.php
 ln -s ~/sites/mp/common/messages/zh-CN/langswitch.php ~/sites/yii2-language-switcher/messages/zh-CN/langswitchx.php
 
 
@@ -40,7 +41,6 @@ rm ~/sites/yii2-language-switcher/messages/it/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/fr/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/nl/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/ja/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/zh-CN/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/ko/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/hi/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/pl/langswitch.php
@@ -48,6 +48,8 @@ rm ~/sites/yii2-language-switcher/messages/fa/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/sv/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/id/langswitch.php
 rm ~/sites/yii2-language-switcher/messages/th/langswitch.php
+rm ~/sites/yii2-language-switcher/messages/vi/langswitch.php
+rm ~/sites/yii2-language-switcher/messages/zh-CN/langswitch.php
 
 # copy symbolic links to local file
 cp ~/sites/yii2-language-switcher/messages/en/langswitchx.php ~/sites/yii2-language-switcher/messages/en/langswitch.php
