@@ -1,4 +1,4 @@
-/* 
+/*
     Created on : 06.11.2016, 15:29:07
     Author     : Klaus Mergen <kmergenweb@gmail.com>
 */
@@ -214,7 +214,7 @@
 	background-position: -48px -33px;
 }
 
-.flag.flag-cz {
+.flag.flag-cz,.flag.flag-cs {
 	background-position: -64px -33px;
 }
 
@@ -358,7 +358,7 @@
 	background-position: -96px -55px;
 }
 
-.flag.flag-gr {
+.flag.flag-gr,.flag.flag-el {
 	background-position: -112px -55px;
 }
 
@@ -1025,4 +1025,3 @@
 .flag.flag-zw {
 	background-position: -208px -165px;
 }
-
