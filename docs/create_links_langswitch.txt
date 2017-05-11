@@ -72,4 +72,5 @@ cp ~/sites/yii2-language-switcher/messages/fa/langswitchx.php ~/sites/yii2-langu
 cp ~/sites/yii2-language-switcher/messages/sv/langswitchx.php ~/sites/yii2-language-switcher/messages/sv/langswitch.php
 cp ~/sites/yii2-language-switcher/messages/id/langswitchx.php ~/sites/yii2-language-switcher/messages/id/langswitch.php
 cp ~/sites/yii2-language-switcher/messages/th/langswitchx.php ~/sites/yii2-language-switcher/messages/th/langswitch.php
+cp ~/sites/yii2-language-switcher/messages/vi/langswitchx.php ~/sites/yii2-language-switcher/messages/vi/langswitch.php
 cp ~/sites/yii2-language-switcher/messages/zh-CN/langswitchx.php ~/sites/yii2-language-switcher/messages/zh-CN/langswitch.php
