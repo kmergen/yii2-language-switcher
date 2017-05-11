@@ -23,6 +23,7 @@ return [
         'el',
         'cs',
         'id',
+        'th',
     ],
     'translator' => 'Yii::t',
     'sort' => false,
