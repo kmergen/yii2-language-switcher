@@ -169,7 +169,7 @@ class LanguageSwitcher extends Widget
             'el' => Yii::t('langswitch','Greek'),
             'sv' => Yii::t('langswitch','Swedish'),
             'id' => Yii::t('langswitch','Indonesian'),
-            'th' => Yii::t('langswitch','Thailand'),
+            'th' => Yii::t('langswitch','Thai'),
             ];
         }
 
