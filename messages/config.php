@@ -9,6 +9,7 @@ return [
         'ru',
         'es',
         'it',
+        'pt',
         'fr',
         'us',
         'nl',
