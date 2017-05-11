@@ -32,5 +32,5 @@ return [
     'Spanish' => 'Spanisch',
     'Persian' => 'Persisch',
     'Polish' => 'Polieren',
-
+    'Vietnamese' => 'Vietnamesisch',
 ];

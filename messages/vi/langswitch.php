@@ -16,21 +16,21 @@
  *
  * NOTE: this file must be saved in UTF-8 encoding.
  */
-return [
-    'Persian' => 'Persian',
-    'Polish' => 'Polish',
-    'Arabic' => 'Arabic',
-    'Chinese' => 'Chinese',
-    'Dutch' => 'Nederlandse',
-    'English' => 'Engels',
-    'French' => 'Frans',
-    'German' => 'Duits',
-    'Hindi' => 'Hindi',
-    'Italian' => 'Italiaanse',
-    'Japanese' => 'Japanese',
-    'Korean' => 'Korean',
-    'Portuguese' => 'Portuguese',
-    'Russian' => 'Russische',
-    'Spanish' => 'Spaanse',
-    'Vietnamese' => 'Vietnamees',
-];
+ return [
+    'Arabic' => 'tiếng Ả Rập',
+    'Chinese' => 'Trung Quốc',
+    'Dutch' => 'Hà Lan',
+    'English' => 'Anh',
+    'French' => 'người Pháp',
+    'German' => 'tiếng Đức',
+    'Hindi' => 'Tiếng Hindi',
+    'Italian' => 'người Ý',
+    'Japanese' => 'tiếng Nhật',
+    'Korean' => 'Hàn Quốc',
+    'Persian' => 'Người Ba Tư',
+    'Polish' => 'đánh bóng',
+    'Portuguese' => 'Tiếng Bồ Đào Nha',
+    'Russian' => 'Nga',
+    'Spanish' => 'người Tây Ban Nha',
+    'Vietnamese' => 'Tiếng Việt', 
+ ];

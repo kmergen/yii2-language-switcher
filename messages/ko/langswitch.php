@@ -32,4 +32,5 @@ return [
     'Spanish' => '스페인 사람',
     'Persian' => '페르시아 인',
     'Polish' => '광택',
+    'Vietnamese' => '베트남 사람',
 ];

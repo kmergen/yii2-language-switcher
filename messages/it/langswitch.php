@@ -32,4 +32,5 @@
      'Portuguese' => 'portoghese',
      'Russian' => 'russo',
      'Spanish' => 'spagnolo',
+     'Vietnamese' => 'vietnamita',
  ];

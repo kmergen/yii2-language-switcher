@@ -32,4 +32,5 @@ return [
     'Portuguese' => 'portugalski',
     'Russian' => 'Rosyjski',
     'Spanish' => 'język hiszpański',
+    'Vietnamese' => 'wietnamski',
 ];

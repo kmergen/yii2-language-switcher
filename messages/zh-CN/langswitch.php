@@ -32,5 +32,5 @@ return [
     'Spanish' => '西班牙语',
     'Persian' => '波斯语',
     'Polish' => '抛光',
-    
+    'Vietnamese' => '越南',
 ];

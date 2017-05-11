@@ -32,4 +32,5 @@ return [
     'Spanish' => 'स्पैनिश',
     'Persian' => 'फ़ारसी',
     'Polish' => 'पोलिश',
+    'Vietnamese' => 'वियतनामी',
 ];
