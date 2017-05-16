@@ -28,52 +28,50 @@ ln -s ~/sites/mp/common/messages/vi/langswitch.php ~/sites/yii2-language-switche
 ln -s ~/sites/mp/common/messages/zh-CN/langswitch.php ~/sites/yii2-language-switcher/messages/zh-CN/langswitchx.php
 
 After change to only one intl langswitch file
-ln -s ~/sites/mp/common/messages/en/langswitch.php ~/sites/yii2-language-switcher/messages/en/langswitchx.php
-ln -s ~/sites/mp/common/messages/en/langswitch.php ~/sites/yii2-language-switcher/messages/us/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ar/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/cs/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/de/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/el/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ru/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/es/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/it/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/fr/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/nl/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ja/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ko/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/hi/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/pl/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/pt/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/fa/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/sv/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/id/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/th/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/vi/langswitchx.php
-ln -s ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/zh-CN/langswitchx.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ar/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/cs/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/de/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/el/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ru/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/es/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/it/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/fr/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/nl/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ja/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/ko/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/hi/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/pl/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/pt/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/fa/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/sv/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/id/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/th/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/vi/langswitch.php
+cp ~/sites/mp/common/messages/ar/langswitch.php ~/sites/yii2-language-switcher/messages/zh-CN/langswitch.php
 
 
 # remove these links
-rm ~/sites/yii2-language-switcher/messages/en/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/us/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/ar/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/cs/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/de/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/el/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/ru/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/es/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/it/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/fr/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/nl/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/ja/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/ko/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/hi/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/pl/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/fa/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/sv/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/id/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/th/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/vi/langswitch.php
-rm ~/sites/yii2-language-switcher/messages/zh-CN/langswitch.php
+rm ~/sites/yii2-language-switcher/messages/en/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/us/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/ar/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/cs/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/de/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/el/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/ru/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/es/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/it/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/fr/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/nl/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/ja/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/ko/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/hi/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/pl/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/fa/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/sv/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/id/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/th/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/vi/langswitchx.php
+rm ~/sites/yii2-language-switcher/messages/zh-CN/langswitchx.php
 
 # copy symbolic links to local file
 cp ~/sites/yii2-language-switcher/messages/en/langswitchx.php ~/sites/yii2-language-switcher/messages/en/langswitch.php
