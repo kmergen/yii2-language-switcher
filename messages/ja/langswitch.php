@@ -20,7 +20,7 @@ return [
     'Arabic' => 'عربى',
     'Chinese' => '中文',
     'Czech' => 'čeština',
-    'German' => 'Deutsche',
+    'German' => 'Deutsch',
     'Dutch' => 'Nederlands',
     'English' => 'English',
     'French' => 'français',
