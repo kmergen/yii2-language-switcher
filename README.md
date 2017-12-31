@@ -26,7 +26,7 @@ echo \kmergen\LanguageSwitcher::widget([
 
 ]);
 ```
-### Bootstrap dropdown Menu
+### Bootstrap 3 dropdown Menu
 ```php
 echo \kmergen\LanguageSwitcher::widget([
                    'parentTemplate' => '<nav class="navbar-nav nav">
@@ -40,7 +40,7 @@ echo \kmergen\LanguageSwitcher::widget([
 ```
 
 
-### Bootstrap dropdown Menu with flags
+### Bootstrap 3 dropdown Menu with flags
 ```php
 echo \kmergen\LanguageSwitcher::widget([
                    'parentTemplate' => '<nav class="navbar-nav nav">
@@ -51,6 +51,26 @@ echo \kmergen\LanguageSwitcher::widget([
                  'activeItemTemplate' => '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="flag flag-{language}"></i> {label} <span class="caret"></span></a>',
                  'itemTemplate' => '<li><a href="{url}"><i class="flag flag-{language}"></i> {label}</a></li>'
             ]);
+```
+
+### Bootstrap 4 dropdown Menu
+```php
+<?= \kmergen\LanguageSwitcher::widget([
+                'parentTemplate' => '<li class="nav-item dropdown">{activeItem}                               
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLanguageMenuLink">{items}</div></li>',
+                'activeItemTemplate' => '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{label}</a>',
+                'itemTemplate' => '<a class="dropdown-item" href="{url}">{label}</a>'
+                ]); ?>
+```
+
+### Bootstrap 4 dropdown Menu with flags
+```php
+<?= \kmergen\LanguageSwitcher::widget([
+                'parentTemplate' => '<li class="nav-item dropdown">{activeItem}                               
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLanguageMenuLink">{items}</div></li>',
+                'activeItemTemplate' => '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{label}</a>',
+                'itemTemplate' => '<a class="dropdown-item" href="{url}"><i class="flag flag-{language}"></i> {label}</a>'
+                ]); ?>
 ```
 > In the assets folder of this extension are a flags.png and a flags.css file which you can implement in your project template. We do not register these assets directly with the extension to keep it as flexible as possible. 
 
