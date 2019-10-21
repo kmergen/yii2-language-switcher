@@ -47,7 +47,6 @@ class LanguageSwitcher extends Widget
      */
     public $activeItemTemplate = '<li><a href="{url}" title="{label}"><i class="{language}"></i> {label}</a></li>';
 
-
     private static $_labels;
     private $_isError;
     private $_items = [];
@@ -148,28 +147,29 @@ class LanguageSwitcher extends Widget
     {
         if (self::$_labels === null) {
             self::$_labels = [
-            'en' => Yii::t('langswitch', 'English'),
-            'us' => Yii::t('langswitch', 'English'),
-            'es' => Yii::t('langswitch', 'Spanish'),
-            'de' => Yii::t('langswitch', 'German'),
-            'fr' => Yii::t('langswitch', 'French'),
-            'it' => Yii::t('langswitch', 'Italian'),
-            'pt' => Yii::t('langswitch', 'Portuguese'),
-            'pl' => Yii::t('langswitch', 'Polish'),
-            'nl' => Yii::t('langswitch', 'Dutch'),
-            'ru' => Yii::t('langswitch', 'Russian'),
-            'hi' => Yii::t('langswitch', 'Hindi'),
-            'ar' => Yii::t('langswitch', 'Arabic'),
-            'fa' => Yii::t('langswitch', 'Persian'),
-            'ja' => Yii::t('langswitch', 'Japanese'),
-            'ko' => Yii::t('langswitch', 'Korean'),
-            'vi' => Yii::t('langswitch', 'Vietnamese'),
-            'zh-CN' => Yii::t('langswitch', 'Chinese'),
-            'cs' => Yii::t('langswitch','Czech'),
-            'el' => Yii::t('langswitch','Greek'),
-            'sv' => Yii::t('langswitch','Swedish'),
-            'id' => Yii::t('langswitch','Indonesian'),
-            'th' => Yii::t('langswitch','Thai'),
+                'en' => Yii::t('langswitch', 'English'),
+                'us' => Yii::t('langswitch', 'English'),
+                'es' => Yii::t('langswitch', 'Spanish'),
+                'de' => Yii::t('langswitch', 'German'),
+                'de-DE' => Yii::t('langswitch', 'German'),
+                'fr' => Yii::t('langswitch', 'French'),
+                'it' => Yii::t('langswitch', 'Italian'),
+                'pt' => Yii::t('langswitch', 'Portuguese'),
+                'pl' => Yii::t('langswitch', 'Polish'),
+                'nl' => Yii::t('langswitch', 'Dutch'),
+                'ru' => Yii::t('langswitch', 'Russian'),
+                'hi' => Yii::t('langswitch', 'Hindi'),
+                'ar' => Yii::t('langswitch', 'Arabic'),
+                'fa' => Yii::t('langswitch', 'Persian'),
+                'ja' => Yii::t('langswitch', 'Japanese'),
+                'ko' => Yii::t('langswitch', 'Korean'),
+                'vi' => Yii::t('langswitch', 'Vietnamese'),
+                'zh-CN' => Yii::t('langswitch', 'Chinese'),
+                'cs' => Yii::t('langswitch', 'Czech'),
+                'el' => Yii::t('langswitch', 'Greek'),
+                'sv' => Yii::t('langswitch', 'Swedish'),
+                'id' => Yii::t('langswitch', 'Indonesian'),
+                'th' => Yii::t('langswitch', 'Thai'),
             ];
         }
 
